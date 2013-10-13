@@ -1,6 +1,17 @@
 .menus {
-  .list_image {
+  .menu_image {
     width: 200px;
     height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu_restaurant_name {
+    display: block;
+  }
+
+  .menu_description {
+    display: block;
   }
 }

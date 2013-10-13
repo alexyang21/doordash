@@ -1,6 +1,19 @@
-<h1>Listing menus</h1>
+<div class="row">
+  <% @menus.each do |menu| %>
+    <div class="col-md-3">
+      <%= image_tag(menu.image_url, class: "menu_image") %>
 
-<table>
+      <div class="menu_restaurant_name center">
+        <%= menu.restaurant_name %>
+      </div>
+      <div class="menu_description center">
+        <%= menu.description %>
+      </div>
+    </div><!-- /.col-md-3 -->
+  <% end %>
+</div> <!-- /.row -->
+
+<!-- <table>
   <% @menus.each do |menu| %>
     <tr>
       <td>
@@ -19,7 +32,7 @@
       </td>
     </tr>
   <% end %>
-</table>
+</table> -->
 
 <br>
 

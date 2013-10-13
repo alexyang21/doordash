@@ -16,3 +16,9 @@ Menu.create!( restaurant_name:  "Fukada",
 Menu.create!( restaurant_name:  "Mick's Karma Bar",
               description:      "Burgers",
               image_url:        "micks.jpg")
+Menu.create!( restaurant_name:  "Kula Revolving Sushi Bar",
+              description:      "Japanese Sushi Bar",
+              image_url:        "kula.jpg")
+Menu.create!( restaurant_name:  "Le Diplomate Cafe",
+              description:      "Sandwiches",
+              image_url:        "diplomate.gif")
