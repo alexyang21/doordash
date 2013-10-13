@@ -9,3 +9,8 @@ two:
   restaurant_name: MyString
   description: MyString
   image_url: MyString
+
+micks:
+  restaurant_name: Mick's Karma Bar
+  description: Burgers
+  image_url: micks.jpg
